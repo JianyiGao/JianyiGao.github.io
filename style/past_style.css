@@ -1,0 +1,97 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+  background: url("../assets/images/past_galaxy.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-bottom: 150px;
+}
+
+.header .navbar-nav>li>a {
+    color: white;
+    font-size: 19x;
+}
+
+.header .navbar {
+    margin-bottom: 0px;
+    padding-top: 30px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    min-width: 300px;
+}
+
+.header .navbar-default .navbar-nav>.open>a,
+.header .navbar-default .navbar-nav>.open>a:focus,
+.header .navbar-default .navbar-nav>.open>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.header .nav>li>a:focus,
+.header .nav>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.header .navbar-nav>li {
+    margin-right: 20px;
+    border: none;
+}
+
+.header .navbar-nav {
+   margin-top: 12px;
+   border: none;
+}
+
+.header .navbar-toggle {
+    background-color: transparent !important;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+
+.header .navbar-toggle .icon-bar {
+    background-color: white;
+    border: none;
+}
+
+.header .navbar-brand {
+    color: white;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.header .navbar-brand:hover {
+    color: #ccc;
+}
+
+.cards {
+  padding-top: 20px;
+}
+
+.cards .row {
+  /*background-color: transparent !important;*/
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.cards .row .thumbnail{
+  background-color:  rgba(255, 255, 255, 0.8);
+}
+
+.cards .row .thumbnail .img-rounded{
+  width:100%;
+}
+
+.thumbnail h3{
+  font-size: 30px;
+}
+
+.thumbnail p{
+  font-size: 17px;
+  color: rgba(13, 11, 11, 0.6);
+}

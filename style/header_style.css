@@ -1,0 +1,153 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    color: white;
+    background: url("../assets/images/header_universe.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 1px;
+}
+
+.header .navbar-nav>li>a {
+    color: white;
+    font-size: 19px;
+    /*border-radius: 10px;*/
+}
+
+.header .navbar {
+    margin-bottom: 0px;
+    padding-top: 30px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    min-width: 300px;
+}
+
+.header .navbar-default .navbar-nav>.open>a,
+.header .navbar-default .navbar-nav>.open>a:focus,
+.header .navbar-default .navbar-nav>.open>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.header .nav>li>a:focus,
+.header .nav>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.header .navbar-nav>li {
+    margin-right: 20px;
+    border: none;
+}
+
+.header .navbar-nav {
+   margin-top: 12px;
+   border: none;
+}
+
+.header .navbar-toggle {
+    background-color: transparent !important;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+
+.header .navbar-toggle .icon-bar {
+    background-color: white;
+    border: none;
+}
+
+.header .navbar-brand {
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.header .navbar-brand:hover {
+    color: #ccc;
+}
+
+.header .main {
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.header .main h1 {
+    color: white;
+    font-size: 60px;
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+
+
+.header .main p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 22px;
+    max-width: 660px;
+    margin: 0 auto 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+
+}
+
+.header .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fffbfb !important;
+    outline:none;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 18px 24px;
+    transition:0.2s background-color;
+}
+
+.header .btn-primary:hover {
+    background-color:rgba(255,255,255,0.1);
+}
+
+.header .btn-primary:active {
+    transform:translateY(1px);
+}
+
+/*div {
+    transition: all linear 0.5s;
+    background-color: lightblue;
+    height: 100px;
+}
+.ng-hide {
+    height: 0;
+}*/
+
+@media screen and (max-width: 767px) {
+
+    .header .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .header .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #ccc;
+    }
+
+    .header .navbar-collapse {
+        margin-left: 20px;
+        border-top: none;
+        box-shadow: none;
+    }
+
+    .header .main{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .header .main h1{
+        font-size: 42px;
+    }
+}

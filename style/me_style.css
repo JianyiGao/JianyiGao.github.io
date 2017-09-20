@@ -1,0 +1,143 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+  background: url("../assets/images/future_galaxy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 150px;
+}
+
+.header .navbar-nav>li>a {
+    color: white;
+    font-size: 19px;
+}
+
+.header .navbar {
+    margin-bottom: 0px;
+    padding-top: 30px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    min-width: 300px;
+}
+
+.header .navbar-default .navbar-nav>.open>a,
+.header .navbar-default .navbar-nav>.open>a:focus,
+.header .navbar-default .navbar-nav>.open>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.header .nav>li>a:focus,
+.header .nav>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.header .navbar-nav>li {
+    margin-right: 20px;
+    border: none;
+}
+
+.header .navbar-nav {
+   margin-top: 12px;
+   border: none;
+}
+
+.header .navbar-toggle {
+    background-color: transparent !important;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+
+.header .navbar-toggle .icon-bar {
+    background-color: white;
+    border: none;
+}
+
+.header .navbar-brand {
+    color: white;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.header .navbar-brand:hover {
+    color: #ccc;
+}
+.block {
+    text-align: center;
+    vertical-align: middle;
+}
+.circle {
+    background: rgba(134, 137, 141, 0.55);
+    border-radius: 214px;
+    color: white;
+    height: 214px;
+    width: 214px;
+    display: table;
+    margin: 20px auto;
+    box-shadow: -10px 5px 5px -2px white;
+}
+.bigcircle {
+    background:rgba(134, 137, 141, 0.15);
+    border-radius: 300px;
+    color: white;
+    height: 300px;
+    width: 300px;
+    display: table;
+    box-shadow: 2px 6px 5px white;
+}
+.circle p {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 17px;
+    padding: 7px;
+}
+.bigcircle p {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 25px;
+    font-size: 18px;
+}
+.smallcircle {
+    background:rgba(123, 166, 217, 0.3);
+    border-radius: 140px;
+    color: white;
+    height: 140px;
+    width: 140px;
+    display: table;
+    margin: 20px auto;
+    box-shadow: 3px 3px 2px white;
+}
+.smallcircle p {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 8px;
+    font-size: 14px;
+}
+.mbigcircle {
+    background: rgba(52, 131, 223, 0.6);
+    border-radius: 250px;
+    color: white;
+    height: 250px;
+    width: 250px;
+    display: table;
+    margin: 20px auto;
+    box-shadow: 0px 5px 5px white;
+    font-size: 19px;
+    padding: 2px;
+}
+.mbigcircle p {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 20px;
+}
+
+.icon {
+  margin-right: 10px;
+}
