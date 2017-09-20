@@ -1,10 +1,22 @@
 # Jianyi Gao's Web Page
 
-This is my personal webpage with everything about me, my contact information and resume.
+This is [my personal webpage](https://jianyigao.github.io) with everything about me, my contact information and resume.
 
 # Current version
 
 Built with HTML5, CSS3 and Bootstrap.
+
+# Preview
+Homepage:
+![alt text](preview/home.png "Homepage")
+A link to the past:
+![alt text](preview/past.png "A link to the past")
+A glimpse into the future:
+![alt text](preview/future.png "A glimpse into the future")
+Contact:
+![alt text](preview/contact.png "Contact")
+More about me:
+![alt text](preview/me.png "More about me")
 
 # What's more?
 
@@ -19,7 +31,7 @@ Currently reconstructing using AngularJS. (Angularfy it?)
 
 This project is licensed under the MIT License
 
-Copyright <2017> <Jianyi Gao>
+Copyright [2017 Jianyi Gao]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

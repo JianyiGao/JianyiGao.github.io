@@ -11,7 +11,7 @@ body {
 
 .header .navbar-nav>li>a {
     color: white;
-    font-size: 19x;
+    font-size: 19px;
 }
 
 .header .navbar {
@@ -88,10 +88,10 @@ body {
 }
 
 .thumbnail h3{
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .thumbnail p{
-  font-size: 17px;
+  font-size: 16px;
   color: rgba(13, 11, 11, 0.6);
 }
