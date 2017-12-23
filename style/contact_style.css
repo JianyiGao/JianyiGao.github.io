@@ -72,15 +72,16 @@ body {
 .namecard{
   margin: 80px 360px;
   width: auto;
-  height: 450px;
+  height: auto;
+  min-height: 425px;
   background-position:center;
   background-color: white;
   box-shadow: 6px 6px 3px grey;
 }
 
 #photo{
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 8%;
+  margin-left: 7%;
   height: auto;
   width: auto;
   max-width: 220px;
@@ -130,12 +131,12 @@ body {
 }
 
 .namecard .newrow{
-  margin-left: 350px;
-  margin-top: -40px;
+  margin-left: 20%;
+  margin-top: -5%;
 }
 
 .namecard .secondrow{
-  margin-left: 350px;
+  margin-left: 39%;
   margin-top: 18px;
 }
 

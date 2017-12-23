@@ -39,7 +39,7 @@ body {
 }
 
 .header .navbar-nav>li {
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     border: none;
 }
 
@@ -87,7 +87,7 @@ body {
 
 .header .main p {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 22px;
+    font-size: 21px;
     max-width: 660px;
     margin: 0 auto 20px;
     margin-bottom: 20px;
