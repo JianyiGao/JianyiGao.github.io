@@ -73,6 +73,7 @@ body {
   margin: 80px 360px;
   width: auto;
   height: auto;
+  min-width: 650px;
   min-height: 425px;
   background-position:center;
   background-color: white;
