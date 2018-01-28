@@ -3,16 +3,20 @@ body {
 }
 
 .background{
-  background: url("../assets/images/future_galaxy.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 150px;
+  background: url("../assets/images/project_universe.jpg");
+  background-size: contain;
+  padding-bottom: 5%;
 }
 
 .header .navbar-nav>li>a {
     color: white;
     font-size: 19px;
+}
+
+.header .navbar-nav>li>a {
+    color: white;
+    font-size: 19px;
+    /*border-radius: 10px;*/
 }
 
 .header .navbar {
@@ -38,6 +42,7 @@ body {
 }
 
 .header .navbar-nav>li {
+    /*margin-right: 20px;*/
     border: none;
 }
 
@@ -69,60 +74,122 @@ body {
     color: #ccc;
 }
 
-.buttons .row {
-  /*background-color: transparent !important;*/
-  margin-left: 60px;
-  margin-right: 60px;
+.header .main {
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 
-.buttons {
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 450px;
-}
-
- .main h1 {
+.header .main h1 {
     color: white;
-    font-size: 30px;
-    margin-left: 190px;
+    font-size: 60px;
+    padding-top: 100px;
+    margin-bottom: 40px;
 }
 
-.main p {
+
+.header .main p {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 22px;
-    max-width: 650px;
-    margin-left: 240px;
-    margin-bottom: 50px;
+    font-size: 21px;
+    max-width: 660px;
+    margin: 0 auto 20px;
+    margin-bottom: 20px;
     font-weight: normal;
     line-height: 1.5;
-    border-bottom: solid;
+
 }
 
-
-#planets{
-    height: auto;
-    width: auto;
-    max-width: 180px;
-    max-height: 180px;
+.header .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fffbfb !important;
+    outline:none;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 18px 24px;
+    transition:0.2s background-color;
 }
 
+.header .btn-primary:hover {
+    background-color:rgba(255,255,255,0.1);
+}
 
-#earth, #moon, #jupiter, #uranus, #solarsystem, #milkyway{
+.header .btn-primary:active {
+    transform:translateY(1px);
+}
+
+.title {
+  font-size: 30px;
   color: white;
-  /*color: #fff;*/
-  background-color:transparent;
-  /*border-color: #fffbfb !important;*/
-  margin-right: 20px;
-  margin-top: 20px;
-  font-size: 16px;
-  padding: 18px 30px;
-  transition:0.2s background-color;
 }
 
-.buttons p{
-  max-width: 900px;
+.description-left {
   font-size: 18px;
-  line-height: 1.5;
+  color: white;
+  margin-left:18%;
+  margin-right: 5%;
+  line-height: 32px;
+}
+
+.description-right {
+  font-size: 18px;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  line-height: 32px;
+}
+
+#link {
+  margin-left: 80%;
+  margin-right: 1%;
+}
+
+#disabled {
+  margin-left: 2%;
+}
+
+#twin1 {
+  margin-left: 2.6%;
+}
+
+#twin2 {
+  margin-left: -5%;
+}
+
+#link2 {
+  margin-left: 75%;
+  margin-right: 1%;
+}
+
+.main {
+  min-height: 100%;
+}
+
+
+
+
+
+
+
+/*div {
+    transition: all linear 0.5s;
+    background-color: lightblue;
+    height: 100px;
+}
+.ng-hide {
+    height: 0;
+}*/
+
+.panel {
+  background: rgba(122, 130, 136, 0.5)!important;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.panel-body {
+  color: white;
 }
 
 @media screen and (max-width: 767px) {
@@ -142,12 +209,12 @@ body {
         box-shadow: none;
     }
 
-    .header .main{
+    .header .main {
         margin-top: 40px;
         margin-bottom: 40px;
     }
 
-    .header .main h1{
+    .header .main h1 {
         font-size: 42px;
     }
 }
