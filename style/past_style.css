@@ -4,9 +4,8 @@ body {
 
 .background{
   background: url("../assets/images/past_galaxy.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
-  padding-bottom: 150px;
+  background-size:contain;
+  min-height: 100vh;
 }
 
 .header .navbar-nav>li>a {
@@ -37,7 +36,6 @@ body {
 }
 
 .header .navbar-nav>li {
-    margin-right: 20px;
     border: none;
 }
 
@@ -59,7 +57,7 @@ body {
 
 .header .navbar-brand {
     color: white;
-    font-size: 28px;
+    font-size: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
@@ -89,9 +87,44 @@ body {
 
 .thumbnail h3{
   font-size: 30px;
+  margin-top: -1%;
 }
 
 .thumbnail p{
   font-size: 17px;
   color: rgba(13, 11, 11, 0.6);
+}
+
+.image {
+  padding:2%;
+  max-height: 20%;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .header .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .header .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #ccc;
+    }
+
+    .header .navbar-collapse {
+        margin-left: 10px;
+        border-top: none;
+        box-shadow: none;
+    }
+
+    .header .main{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .header .main h1{
+        font-size: 42px;
+    }
 }

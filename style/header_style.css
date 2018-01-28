@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
     padding-bottom: 1px;
+    min-height: 100vh;
 }
 
 .header .navbar-nav>li>a {
@@ -61,7 +62,7 @@ body {
 
 .header .navbar-brand {
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
@@ -75,6 +76,7 @@ body {
     text-align:center;
     margin-top: 100px;
     margin-bottom: 200px;
+    height: 100%;
 }
 
 .header .main h1 {

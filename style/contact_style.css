@@ -4,9 +4,8 @@ body {
 
 .background{
   background: url("../assets/images/contact_galaxy.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
-  padding-bottom: 100px;
+  background-size:contain;
+  min-height: 100vh;
 }
 
 .header .navbar-nav>li>a {
@@ -37,7 +36,6 @@ body {
 }
 
 .header .navbar-nav>li {
-    margin-right: 20px;
     border: none;
 }
 
@@ -59,7 +57,7 @@ body {
 
 .header .navbar-brand {
     color: white;
-    font-size: 28px;
+    font-size: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
@@ -69,7 +67,54 @@ body {
     color: #ccc;
 }
 
-.namecard{
+.namecard {
+  position: relative;
+  margin-top: 5%;
+  /*padding: 5%;*/
+  box-shadow: 6px 6px 3px grey;
+}
+
+#icon {
+
+}
+
+#link {
+  padding-left: 8%;
+  padding-right: 5%;
+  border-style: none;
+  font-size: 18px;
+}
+
+.thumbnail {
+  border-style: none;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 25px;
+}
+
+.contacts {
+  padding-top: 2%;
+}
+
+ul li {
+    display: block;
+    height: 70px;
+    line-height: 60px;
+}
+
+ul li img {
+    vertical-align:middle;
+    margin-right: 5%;
+    height: 50px;
+}
+
+
+/*.namecard{
   margin: 80px 360px;
   width: auto;
   height: auto;
@@ -143,4 +188,31 @@ body {
 
 .namecard .col-sm-6 {
   margin-right: 50px;
+}*/
+
+@media screen and (max-width: 767px) {
+
+    .header .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .header .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #ccc;
+    }
+
+    .header .navbar-collapse {
+        margin-left: 20px;
+        border-top: none;
+        box-shadow: none;
+    }
+
+    .header .main{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .header .main h1{
+        font-size: 42px;
+    }
 }

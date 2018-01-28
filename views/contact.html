@@ -11,8 +11,8 @@
   </head>
   <body>
     <div class = "background">
-    <div class = "header">
-    <nav class="navbar navbar-default">
+    <div class = "header row">
+      <nav class="navbar navbar-default">
         <div class="container">
             <a class="navbar-brand" href="me.html">Jianyi Gao</a>
             <div class="navbar-header">
@@ -25,6 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarmenu">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="../index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="past.html">A Link to the Past</a></li>
                     <li><a href="future.html">A Glimpse into the Future</a></li>
                     <li><a href="../assets/file/JianyiGao_Resume.pdf">Resume</a></li>
@@ -34,28 +35,31 @@
           </div>
       </nav>
     </div>
-    <div class = "namecard">
-      <div class = "row">
-        <div class = "col-sm-6 col-md-4">
-          <img id = "photo" src = "../assets/images/namecard.jpg" />
-        </div>
-          <h1>Hey there,</h1>
-          <p> Can't wait to get to know you!</p>
-          <img id = "icon"  src = "../assets/images/email_1.png"/>
-          <a class="btn btn-primary" onclick="window.location.href='mailto:gaojianyi912@gmail.com'"> gaojianyi912@gmail.com </a>
-        </div>
-        <div class = "newrow">
-          <img id = "icon"  src = "../assets/images/linkedin.png"/>
-          <a class="btn btn-primary" href = "https://www.linkedin.com/in/jianyi-gao-504151105/"> Jianyi Gao </a>
-        </div>
-        <div class = "secondrow">
-          <img id = "icon"  src = "../assets/images/wechat.png"/>
-          <button type="button" class="btn btn-primary" style="cursor:default;">jenny5NPH</button>
-        </div>
-        <div class = "secondrow">
-          <img id = "icon"  src = "../assets/images/github.png"/>
-          <a class="btn btn-primary"  href = "https://github.com/JianyiGao">JianyiGao</a>
-       </div>
+      <div class = "namecard">
+        <div class="panel panel-default col-xs-offset-1 col-md-offset-2 col-xs-10 col-md-8 namecard">
+          <div class="panel-body row">
+            <div class="col-xs-6 col-md-4">
+              <a class="thumbnail">
+                <img src= "../assets/images/namecard.jpg" alt="namecard">
+                <!-- ../assets/images/namecard.jpg -->
+              </a>
+            </div>
+                <div class = "description col-md-offset-5">
+                  <div class = "">
+                    <div class = "title">Hey there,</div>
+                    <div class = "subtitle"> Can't wait to get to know you!</div>
+                    <div class = "contacts">
+                      <ul>
+                        <li><img src="../assets/images/github.png" /><a class = "btn btn-default" href = "https://github.com/JianyiGao" id = link>JianyiGao</a></li>
+                        <li><img src="../assets/images/email_1.png" /><a class = "btn btn-default" onclick="window.location.href='mailto:gaojianyi912@gmail.com'" id = link>gaojianyi912@gmail.com</a></li>
+                        <li><img src="../assets/images/linkedin.png" /><a class = "btn btn-default" href = "https://www.linkedin.com/in/jianyi-gao-504151105/" id = link>Jianyi Gao</a></li>
+                        <li><img src="../assets/images/wechat.png" /><a class = "btn btn-default" id = "link">jenny5NPH</a></li>
+                      </ul>
+                   </div>
+                  </div>
+                </div>
+
+
 
 
     </div>
